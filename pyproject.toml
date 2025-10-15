@@ -25,18 +25,18 @@ packages = [
 
 [tool.poetry.dependencies]
 python = ">3.12"
-h5py = "^3.4.0"
-numpy = "^1.21.2"
-scikit-learn = "^1.2.2"
-tqdm = "^4.62.2"
+h5py = ">3.4.0"
+numpy = ">1.21.2"
+scikit-learn = ">1.2.2"
+tqdm = ">4.62.2"
 torch = ">2"
-transformers = "^4.10.2"
-sentencepiece = "^0.1.96"
-biopython = "^1.79"
-pyfaidx = "^0.6.2"
+transformers = ">4.10.2"
+sentencepiece = ">0.1.96"
+biopython = ">1.79"
+pyfaidx = ">0.6.2"
 
 [tool.poetry.dev-dependencies]
-pytest = "^5.2"
+pytest = ">5.2"
 
 [build-system]
 requires = ["poetry-core>=1.0.0"]
